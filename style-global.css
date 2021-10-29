@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&family=Rubik+Mono+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    width: 100%;
+}
+
+.nav-menu li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.nav-menu li a{
+    color: black;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-menu li a:hover{
+    background-color:aquamarine;
+    color: white;
+    border-radius: 10px;
+}
+
+.banner img{
+   width: 100%;
+}
+
+.apresenta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-info{
+    padding: 20px;
+}
+
+.content-info h1{
+    font-size: 5em;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.content-info p{
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.apresenta img{
+    width: 50%;
+}
+
+footer{
+    background: black;
+    color:white;
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+    color: aquamarine;
+}
